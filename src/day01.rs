@@ -21,6 +21,7 @@ pub fn read_input_file_and_save_it_in_vec() -> Vec<String> {
     line_vector
 }
 
+//solution for first star
 pub fn take_numbers_of_vec_and_calc_sum() -> u32 {
     let line_vector = read_input_file_and_save_it_in_vec();
     let mut sum_of_calibration_values = 0;
@@ -87,6 +88,7 @@ pub fn match_digits(digit: &str) -> char {
     'e'
 }
 
+//solution for second star
 pub fn take_numbers_of_vec_and_calc_real_sum() -> u32 {
     let line_vector = read_input_file_and_save_it_in_vec();
     let mut sum_of_calibration_values = 0;
